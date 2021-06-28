@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LocSec-Gebiet Query</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+        <script type='text/javascript' src='locsecs.js'></script>
+        <script type='text/javascript' src='query_locsec.js'></script>
+    </head>
+    <body>
+        <p>
+            <input type='text' id='plz' />
+            <input type='button' onclick='document.getElementById("out").innerHTML = query_locsec(document.getElementById("plz").value);' value='Query' />
+        </p>
+        <p id='out'></p>
+    </body>
+</html>
